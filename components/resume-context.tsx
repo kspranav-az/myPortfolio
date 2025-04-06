@@ -60,7 +60,7 @@ const resumeData = {
     kaggle: "https://www.kaggle.com/kspranavaz",
   },
   skills: {
-    languages: ["Kotlin", "Java", "Python", "R", "C/C++", "SQL (PL-SQL, MySQL)", "JavaScript", "HTML", "XML", "CSS"],
+    languages: ["Python", "Kotlin", "Java",  "R", "C/C++", "SQL (PL-SQL, MySQL)", "JavaScript", "HTML", "XML", "CSS"],
     frameworks: ["Node.js", "Flask", "Django", "Bootstrap"],
     devops: ["Git", "Docker", "Postman"],
     cloud: ["Linux (Configuring and Managing)"],
@@ -98,16 +98,17 @@ const resumeData = {
       ],
     },
     {
-      title: "Android & Web Developer",
-      company: "Self Employed",
-      period: "August 2022 - Present",
-      description: [
-        "Engineered Android application for barber shop, focusing on financial management and billing.",
-        "Executed features to streamline employee scheduling, aiming to reduce administrative time by 25% and improve staff productivity.",
-        "Enhanced booking system to reduce wait times by 30%, improving customer satisfaction and retention.",
-        "Collaborated with local taxi service to develop a web application, streamlining the booking process and increasing daily trips by 10%.",
-      ],
-    },
+  title: "Android & Web Developer",
+  company: "Self Employed",
+  period: "August 2022 - Present",
+  description: [
+    "Developed customized Android application for Infinity Fitness, implementing membership management with WhatsApp payment reminders and bill generation, reducing manual follow-ups by 40%.",
+    "Engineered Android application for barber shop, focusing on financial management and billing systems.",
+    "Implemented cloud backup solutions for both applications, ensuring secure data storage and accessibility of records.",
+    "Enhanced booking systems across projects, reducing customer wait times by 30% and improving retention rates.",
+    "Collaborated with local taxi service to develop web application, increasing daily trips by 10% through streamlined booking process.",
+  ]
+}
   ],
   education: [
   {

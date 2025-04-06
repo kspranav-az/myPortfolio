@@ -255,7 +255,7 @@ function AboutSection() {
                         rel="noopener noreferrer"
                         className="text-white hover:text-purple-300 transition-colors flex items-center gap-1"
                     >
-                      {personal.kaggle.split("/").pop()} <ExternalLink className="w-3 h-3"/>
+                      @kaggle <ExternalLink className="w-3 h-3"/>
                     </a>
                   </div>
                 </div>
@@ -513,6 +513,7 @@ function SkillsSection() {
       <h2 className="text-2xl font-bold text-white">Technical Skills</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {/* Programming Languages */}
         <Card className="bg-gray-900/50 border-teal-900/30">
           <CardHeader>
             <CardTitle className="text-white">Programming Languages</CardTitle>
@@ -528,6 +529,7 @@ function SkillsSection() {
           </CardContent>
         </Card>
 
+        {/* Frameworks & Libraries */}
         <Card className="bg-gray-900/50 border-teal-900/30">
           <CardHeader>
             <CardTitle className="text-white">Frameworks & Libraries</CardTitle>
@@ -543,6 +545,7 @@ function SkillsSection() {
           </CardContent>
         </Card>
 
+        {/* ML & Data Science Libraries */}
         <Card className="bg-gray-900/50 border-teal-900/30">
           <CardHeader>
             <CardTitle className="text-white">ML & Data Science</CardTitle>
@@ -558,6 +561,7 @@ function SkillsSection() {
           </CardContent>
         </Card>
 
+        {/* DevOps & Cloud */}
         <Card className="bg-gray-900/50 border-teal-900/30">
           <CardHeader>
             <CardTitle className="text-white">DevOps & Cloud</CardTitle>
@@ -572,6 +576,22 @@ function SkillsSection() {
               {skills.cloud.map((tool, index) => (
                 <Badge key={index} className="bg-teal-900/30 text-teal-300 border-teal-500/30">
                   {tool}
+                </Badge>
+              ))}
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Specializations */}
+        <Card className="bg-gray-900/50 border-teal-900/30">
+          <CardHeader>
+            <CardTitle className="text-white">Specialization</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <div className="flex flex-wrap gap-2">
+              {skills.specialization.map((area, index) => (
+                <Badge key={index} className="bg-teal-900/30 text-teal-300 border-teal-500/30">
+                  {area}
                 </Badge>
               ))}
             </div>
