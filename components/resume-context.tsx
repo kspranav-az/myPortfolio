@@ -118,13 +118,13 @@ const resumeData = {
     graduation: "March 2027",
   },
   {
-    institution: "St.Xavier’s High School, Balrampur",
+    institution: "St. Xavier’s High School, Balrampur",
     degree: "Higher Secondary School (12th Grade), CBSE",
     gpa: "92.6%",
     graduation: "2022",
   },
   {
-    institution: "St.Xavier’s High School, Balrampur",
+    institution: "St. Xavier’s High School, Balrampur",
     degree: "Secondary School (10th Grade), CBSE",
     gpa: "93.8%",
     graduation: "2020",
@@ -283,6 +283,7 @@ const resumeData = {
     { title: "Advanced Learning Algorithm", issuer: "DeepLearning.AI" },
     { title: "Supervised Machine Learning: Regression and Classification", issuer: "DeepLearning.AI" },
     { title: "Unsupervised Machine Learning", issuer: "DeepLearning.AI" },
+    { title: "DSA with Java", issuer: "Apna College" },
     { title: "SQL (Intermediate)", issuer: "HackerRank" },
     { title: "Java (Basic)", issuer: "HackerRank" },
     { title: "Python (Basic)", issuer: "HackerRank" },
