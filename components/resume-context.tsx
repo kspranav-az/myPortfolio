@@ -266,7 +266,7 @@ const resumeData = {
       status: "Under Publication",
     },
     {
-      title: "Meta-Heuristic Based Bug Detection",
+      title: "PSO-FA: A Hybrid Swarm Intelligence Approach for Bug Detection in Assembly Code",
       technologies: "TensorFlow, Google Colab, Jupyter Notebook",
       date: "NOV 2024",
       status: "Under Publication",
