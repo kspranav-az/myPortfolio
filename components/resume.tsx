@@ -226,22 +226,6 @@ function AboutSection() {
                   </div>
                 </div>
 
-                <div className="flex items-center gap-3">
-                  <div className="bg-teal-900/30 p-2 rounded-full">
-                    <Linkedin className="w-4 h-4 text-teal-400"/>
-                  </div>
-                  <div>
-                    <p className="text-sm text-gray-400">LinkedIn</p>
-                    <a
-                        href={personal.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-white hover:text-teal-300 transition-colors flex items-center gap-1"
-                    >
-                      @linkedin <ExternalLink className="w-3 h-3"/>
-                    </a>
-                  </div>
-                </div>
 
                 <div className="flex items-center gap-3">
                   <div className="bg-teal-900/30 p-2 rounded-full">
